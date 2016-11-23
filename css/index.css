@@ -9,6 +9,20 @@ h1 {
   text-align: center;
 }
 
+hr {
+  border: solid;
+  border-color: blue;
+}
+
+strong {
+  border-bottom: solid;
+  border-color: blue;
+}
+
+.numb {
+  color: blue;
+}
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -16,7 +30,6 @@ ul.topnav {
   overflow: hidden;
   background-color: #333;
   display: inline;
-  
 }
 
 ul.topnav li {float: left;}
