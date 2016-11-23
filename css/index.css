@@ -7,6 +7,7 @@ body {
 h1 {
   color: blue;
   text-align: center;
+  background-image: url(http://t-shirtguru.com/product-images/it-s-called-beer-pong-t-shirt-bustedtees-2.jpg);
 }
 
 hr {
@@ -17,6 +18,11 @@ hr {
 strong {
   border-bottom: solid;
   border-color: blue;
+}
+
+img {
+  width: 500px;
+  height:500px;
 }
 
 .numb {
