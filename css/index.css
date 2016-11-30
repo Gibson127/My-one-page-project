@@ -1,18 +1,21 @@
 body {
-	margin-left: 20%;
-	margin-right: 20%;
-	background-color: grey;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/28/fe/43/28fe43c58fc349df2dddfed6e39be14b.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 h1 {
   color: blue;
   text-align: center;
-  background-image: url(http://t-shirtguru.com/product-images/it-s-called-beer-pong-t-shirt-bustedtees-2.jpg);
+  background-color: grey;
 }
 
 hr {
   border: solid;
-  border-color: blue;
+  border-color: black;
 }
 
 strong {
@@ -23,6 +26,38 @@ strong {
 img {
   width: 500px;
   height:500px;
+}
+
+#section-1 {
+  background-color: silver;
+}
+
+#section-2 {
+  background-color: #17FF1F;
+}
+
+#section-3 {
+  background-color: #E50E03;
+}
+
+#section-4 {
+  background-color: #332DFF;
+}
+
+#section-5 {
+  background-color: #;
+}
+
+#section-6{
+  background-color: #;
+}
+
+#section-7 {
+  background-color: #;
+}
+
+#section-8 {
+  background-color: #;
 }
 
 .numb {
