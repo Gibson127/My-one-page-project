@@ -10,7 +10,7 @@ body {
 h1 {
   color: blue;
   text-align: center;
-  background-color: grey;
+  background-color: #2C2C2C;
 }
 
 hr {
@@ -24,40 +24,59 @@ strong {
 }
 
 img {
-  width: 500px;
+  width: 1000px;
   height:500px;
+  opacity: .7;
+}
+img:hover {
+  opacity: 1.0;
 }
 
 #section-1 {
-  background-color: silver;
+  background-color: black;
+  color: orange;
+  opacity: .7;
+
 }
 
 #section-2 {
-  background-color: #17FF1F;
+  background-color: black;
+  color: brown;
 }
 
 #section-3 {
-  background-color: #E50E03;
+  background-color: black;
+  color: red;
 }
 
 #section-4 {
-  background-color: #332DFF;
+  background-color: black;
+  color: blue;
 }
 
 #section-5 {
-  background-color: #;
+  background-color: darkblue;
+  color: white;
+  opacity: .8;
+}
+#section-5:hover {
+  opacity: 1.0;
 }
 
 #section-6{
-  background-color: #;
+  background-color: grey;
 }
 
 #section-7 {
-  background-color: #;
+  background-color: black;
+  opacity: .7;
+  color: white;
 }
 
 #section-8 {
-  background-color: #;
+  background-color: black;
+  color: red;
+
 }
 
 .numb {
@@ -82,15 +101,15 @@ ul.topnav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.4s;
   font-size: 17px;
 }
 
-ul.topnav li a:hover {background-color: #555; color:blue;}
+ul.topnav li a:hover {background-color: #555; color:white;}
 
 ul.topnav li.icon {display: none;}
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:1040px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
@@ -98,7 +117,7 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:1040px) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: static;
@@ -117,4 +136,13 @@ ul.topnav li.icon {display: none;}
     width: 90%;
     height: 40%;
   }
+}
+
+
+
+.row {
+  color: white;
+  border: solid;
+  padding: 15px;
+  background-color: black;
 }
