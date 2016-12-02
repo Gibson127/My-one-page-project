@@ -103,6 +103,42 @@ body {
     background-size: 100% 100%;
 }
 
+/** navbar styles **/
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: inline;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {
+    background-color: #555;
+    color:white;
+}
+
+ul.topnav li.icon {
+    display: none;
+}
+
+/** content styles **/
+
 h1 {
     color: blue;
     text-align: center;
@@ -135,6 +171,8 @@ img {
 img:hover {
     opacity: 1.0;
 }
+
+/** individual section styles **/
 
 #section-1 {
     background-color: black;
@@ -182,74 +220,13 @@ img:hover {
     color: red;
 }
 
+/** style section numbers differently **/
+
 .numb {
     color: blue;
 }
 
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    display: inline;
-}
-
-ul.topnav li {
-    float: left;
-}
-
-ul.topnav li a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.4s;
-    font-size: 17px;
-}
-
-ul.topnav li a:hover {
-    background-color: #555;
-    color:white;
-}
-
-ul.topnav li.icon {
-    display: none;
-}
-
-@media screen and (max-width:1040px) {
-    ul.topnav li:not(:first-child) {
-        display: none;
-    }
-    ul.topnav li.icon {
-        float: right;
-        display: inline-block;
-    }
-}
-
-@media screen and (max-width:1040px) {
-    ul.topnav.responsive {
-        position: relative;
-    }
-    ul.topnav.responsive li.icon {
-        position: static;
-        right: 0;
-        top: 0;
-    }
-    ul.topnav.responsive li {
-        float: none;
-        display: inline;
-    }
-    ul.topnav.responsive li a {
-        display: block;
-        text-align: left;
-    }
-    img {
-        width: 90%;
-        height: 40%;
-    }
-}
+/** tmp styles for testing **/
 
 #ones {
   margin-top: 25px;
