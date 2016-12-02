@@ -11,6 +11,12 @@ h1 {
   color: blue;
   text-align: center;
   background-color: #2C2C2C;
+  padding-top: 5px;
+}
+
+#heading {
+  display: block;
+  color: yellow;
 }
 
 hr {
@@ -21,6 +27,7 @@ hr {
 strong {
   border-bottom: solid;
   border-color: blue;
+  font-size: x-large;
 }
 
 img {
@@ -41,7 +48,7 @@ img:hover {
 
 #section-2 {
   background-color: black;
-  color: brown;
+  color: white;
 }
 
 #section-3 {
@@ -139,7 +146,9 @@ ul.topnav li.icon {display: none;}
 }
 
 
-
+#ones {
+  margin-top: 25px;
+}
 .row {
   color: white;
   border: solid;
