@@ -168,13 +168,8 @@ strong {
 }
 
 img {
-    width: 1000px;
-    height: 500px;
-    opacity: .7;
-}
-
-img:hover {
-    opacity: 1.0;
+    width: 800px;
+    height: 300px;
 }
 
 /** individual section styles **/
