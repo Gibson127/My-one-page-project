@@ -137,11 +137,16 @@ ul.topnav li a:hover {
 
 /** content styles **/
 
-div.container {
+.container {
     /** top margin to clear the nav bar */
     margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-left:solid;
+    border-right: solid;
+    border-color: black;
+    margin: auto;
+    display: block;
 }
 
 h1 {
@@ -167,11 +172,15 @@ strong {
     font-size: x-large;
 }
 
+img {
+    max-width: 100%;
+}
+
 .image {
     border: solid;
     border-color: darkgrey;
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
+    background-size: cover;
 }
 
 /** individual section styles **/
