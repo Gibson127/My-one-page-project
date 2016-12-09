@@ -167,14 +167,11 @@ strong {
     font-size: x-large;
 }
 
-img {
-    width: 1000px;
-    height: 500px;
-    opacity: .7;
-}
-
-img:hover {
-    opacity: 1.0;
+.image {
+    border: solid;
+    border-color: darkgrey;
+    height: 100%;
+    width: 100%;
 }
 
 /** individual section styles **/
