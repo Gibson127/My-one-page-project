@@ -167,9 +167,11 @@ strong {
     font-size: x-large;
 }
 
-img {
+.image {
     width: 800px;
     height: 300px;
+    border: solid;
+    border-color: darkgrey;
 }
 
 /** individual section styles **/
