@@ -168,10 +168,10 @@ strong {
 }
 
 .image {
-    width: 800px;
-    height: 300px;
     border: solid;
     border-color: darkgrey;
+    height: 100%;
+    width: 100%;
 }
 
 /** individual section styles **/
